@@ -26,7 +26,7 @@ const fetchData = () => {
 
 // Animation Timeline
 const animationTimeline = () => {
-  // Spit chars that needs to be animated individually
+  // Spit chars tneeds to be animated individually
   const textBoxChars = document.getElementsByClassName("hbd-chatbox")[0];
   const hbd = document.getElementsByClassName("wish-hbd")[0];
 
@@ -222,7 +222,7 @@ const animationTimeline = () => {
     )
     .from(".hat", 0.5, {
       x: -100,
-      y: 150,
+      y: 50,
       rotation: -180,
       opacity: 0
     })
